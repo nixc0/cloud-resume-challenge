@@ -249,3 +249,9 @@ p {
     text-indent: 0pt;
     text-align: center; 
     }
+.experience {
+    padding-top: 6pt;
+    padding-left: 25pt;
+    text-indent: 0pt;
+    text-align: left;
+}
