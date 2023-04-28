@@ -17,6 +17,9 @@
 - [x] 8. Database
 
 - [x] 9. API
+  - TODO: 
+    - [ ]right now API pulls same value for the webpage and the resume. I would like to break this up to two separate values. One for how many view the resume has, and another for how many visits the webpage has gotten. 
+    - [ ] Fix CORS so API can't be called from other webpages
 
 - [x] 10. Python
 
@@ -29,6 +32,8 @@
 
 - [ ]  14. CI/CD (Back end)
 
-- [ ] 15. CI/CD (Front end)
+- [x] 15. CI/CD (Front end)
+  - Github actions pushes code to bucket :heavy_check_mark:
+  - Todo: invalidate CF cache
 
 - [ ] 16. Blog post
