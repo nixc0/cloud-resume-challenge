@@ -7,6 +7,16 @@
         </title> 
     </head>
     <body>
+        <!-- Javascript-->
+        <script>
+            const api_url = 'https://api.curtisnix.name//default/CRC_Counter_Function'
+            fetch(api_url)
+                .then(response => response.json())
+                .then((data) => {
+                    document.getElementById('Visitors').innerText = data.crc_visits_counter
+                })            
+        </script>
+
         <table class="table">
             <tbody>
 
@@ -16,16 +26,17 @@
                     </td>
         
                     <td class="c23" colspan="1" rowspan="1">
-                        <p class="contact">Orlando, FL</p>
-                        <p class="contact">(843) 619-1048</p>
-                        <span class="contact">curtis.nix@proton.me</span><br>
+                        <p class="education">Orlando, FL<br>
+                        (843) 619-1048<br>
+                        curtis.nix@proton.me<br>
                         <a href="https://www.linkedin.com/in/curtisnix/">linkedin.com/in/curtisnix/</a></p>
                     </td>
                 </tr>
-            
+                <br><br>
                 <tr class="">
                 <!-- Left column-->
                     <td class="c25" colspan="1" rowspan="1">
+                        <br>
                         <p class="s4">WORK EXPERIENCE</p><p ><br/></p>
                         <p class="s8"><span><img width="45" height="45" alt="image" src="images/Image_001.jpg"/></span>
                         <span class="h2">DigitalOcean, Remote</span><span class="s5"> — </span>
@@ -62,61 +73,64 @@
                         <span class="s6">Electronic Technician III</span></p>
                                 <div class="experience"><p class="s7" class="s9">October 2016 - June 2019</p>
                                 <p class="s3"><br/></p>
-                                <p class="s10">Planned and documented the installation and integration of networking and computer systems.</p>
-                                
-                                <p class="s10">Created over 350 physical network assets and developed the technical documentation for the creation and installation of each.</p>
+                                <p class="s8">Planned and documented the installation and integration of networking and computer systems.</p>
                                 <p class="s3"><br/></p>
-                                <p class="s10">Created products in a development environment for Quality Control, before being moved to production.</p>
+                                <p class="s8">Created over 350 physical network assets and developed the technical documentation for the creation and installation of each.</p>
                                 <p class="s3"><br/></p>
-                                <p class="s10">Read and interpreted engineering documentation in order to install networking cabling and computer systems for 74 mobile military assets.</p>
+                                <p class="s8">Created products in a development environment for Quality Control, before being moved to production.</p>
                                 <p class="s3"><br/></p>
-                                <p class="s10">Documented the installation, inspection, and conﬁguration of each asset during each stage of the integration process.</p>
+                                <p class="s8">Read and interpreted engineering documentation in order to install networking cabling and computer systems for 74 mobile military assets.</p>
+                                <p class="s3"><br/></p>
+                                <p class="s8">Documented the installation, inspection, and conﬁguration of each asset during each stage of the integration process.</p>
                                 <p class="s3"><br/></p></div>
                          <p class="s8" padding-left: 6pt;text-indent: 0pt;text-align: left;><span><img width="45" height="45" alt="image" src="images/Image_004.jpg"/></span> 
                          <span class="h2">United States Marine Corps, Beaufort SC</span><span class="s5"> —</span>
                          <span class="s6" class="s10">Communications</span> Maintenance Supervisor</p>
                                     <div class="experience"><p class="s7" class="s9">May 2008 - May 2013</p>
                                     <p class="s3"><br/></p>
-                                    <p class="s10">Demonstrated an exceptional work ethic, and ability to learn in a constantly changing environment that led to an appointment to a responsibility beyond experience.</p>
+                                    <p class="s8">Demonstrated an exceptional work ethic, and ability to learn in a constantly changing environment that led to an appointment to a responsibility beyond experience.</p>
                                     <p class="s3"><br/></p>
-                                    <p class="s10">Directed workﬂow for a team of six, documenting all maintenance and troubleshooting operations.</p>
+                                    <p class="s8">Directed workﬂow for a team of six, documenting all maintenance and troubleshooting operations.</p>
                                     <p class="s3"><br/></p>
-                                    <p class="s10">Transformed a failing maintenance department into a streamlined operation that met standards with increased eficiency, reducing the need for manpower by 80%.</p><p class="s3">
-                                        <br/></p>
-                                    <p class="s10">Recognized and ﬁlled a need for a subject matter expert on the installation and support of networking devices in new developmental mobile military assets, resulting in being appointed project supervisor for install teams.</p></div>
+                                    <p class="s8">Transformed a failing maintenance department into a streamlined operation that met standards with increased eficiency, reducing the need for manpower by 80%.</p>
+                                    <p class="s3"><br/></p>
+                                    <p class="s8">Recognized and ﬁlled a need for a subject matter expert on the installation and support of networking devices in new developmental mobile military assets, resulting in being appointed project supervisor for install teams.</p></div>
                                     
              
                     </td>
-             <!-- Right Column-->
+                <!-- Right Column-->
                     <td class="c23" colspan="1" rowspan="1">
+                        <br>
+                        <!-- Javascript counter-->              
+                        <p class="labels">
+                            Resume Views: 
+                            <span id="Visitors" class="labels"></span>
+                        </p> 
                         <!-- education section-->
+                        <br><br> <br>
                         <p class="labels">EDUCATION</p>
-                        <p class="s3"><br/></p>
-                         <h3 class="s8">College of Charleston, <span class="p">Charleston SC </span>- <h3>B.S. Economics, minor in Mathematics</h3>
-                         <h3 class="s8">Marine Corps Communications Electronics School, <span class="p">29 Palms CA </span><h3>- Certiﬁcate in Electrical Communications Repair</span></h3>
+                         <p class="education"><em>College of Charleston, </em><span class="p">Charleston SC </span>- <b>B.S. Economics, minor in Mathematics</b></p>
+                         <p class="education"><em>Marine Corps Communications Electronics School, </em><span class="p">29 Palms CA </span>- <b>Certiﬁcate in Electrical Communications Repair</b></p>
                         <p class="s3"><br/></p>
 
                         <!-- certification section-->
+                        <br> <br>
                         <p class="labels">CERTIFICATIONS</p>
-                        <p class="s3"><br/></p>
-                        <p class="s10">Amazon Web Services Certiﬁed Solutions Architect - Associate</p>
+                        <p class="education">Amazon Web Services Certiﬁed Solutions Architect - Associate</p>
                         <p class="education">CompTIA Network+ GFL </p>
                         <p class="education">CompTIA Security+ GFL </p>
                         <p class="s3"><br/></p>
 
                         <!-- skills section-->
-                        <p class="labels">SKILLS</p><p class="s3"><br/></p>
-                        <h3 class="education">Languages/Scripting<span class="p">: Python, YAML, BASH</span></h3>
-                        <p class="s3"><br/></p>
-                        <h3 class="education">Ticket/issue tracking<span class="p">: Zendesk, SalesForce, Jira</span></h3>
-                        <p class="s3"><br/></p>
-                        <h3 class="education">Documentation<span class="p">: Conﬂuence, Guru</span></h3>
-                        <p class="s3"><br/></p>
-                        <h3 class="s10">Virtualization/Containeriza tion<span class="p">: Docker, Kubernetes, Vagrant</span></h3>
-                        <p class="s3"><br/></p>
-                        <h3 class="education">Cloud Platforms<span class="p">: AWS, DigitalOcean, some Azure</span></h3>
-                        <p class="s3"><br/></p><h3 class="education">Webservers<span class="p">: Apache, NGINX</span></h3>
-                        <h3 padding-top: 6pt;class="education">Source Control<span class="p">: Git, CodeCommit</span></h3>
+                        <br> <br>
+                        <p class="labels">SKILLS
+                        <p class="education"><b>Languages/Scripting:</b> Python, YAML, BASH</p>
+                        <p class="education"><b>Ticket/issue tracking:</b> Zendesk, SalesForce, Jira</p>
+                        <p class="education"><b>Documentation:</b> Conﬂuence, Guru</p>
+                        <p class="education"><b>Virtualization/Containerization:</b> Docker, Kubernetes, Vagrant</p>
+                        <p class="education"><b>Cloud Platforms:</b> AWS, DigitalOcean, some Azure</p>
+                        <p class="education"><b>Webservers:</b> Apache, NGINX</p>
+                        <p class="education"><b>Source Control</b>: Git, CodeCommit</p>
                     </td>
 
                 </tr>
