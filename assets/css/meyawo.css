@@ -12288,6 +12288,9 @@ pre .code {
 			margin: 0 0 2em 0;
 		}
 
-			.icon.major:before {
-				font-size: 36px;
-			}
+		.icon.major:before {
+			font-size: 36px;
+		}
+    .customIndent {
+      padding-left: 15em;
+    }
