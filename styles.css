@@ -113,12 +113,16 @@
     text-decoration: underline; 
     font-size: 9pt; 
 }
- .s4 { color: #2078C7; 
-    font-family:Arial, sans-serif; 
-    font-style: normal; 
-    font-weight: bold; 
-    text-decoration: none; 
-    font-size: 9pt; 
+ .s4 { 
+    font-weight: bold;
+    color: #2078c7;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 9pt;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.0;
+    text-align: left;
 }
 .h1 {
     padding-top: 5pt;
@@ -155,6 +159,7 @@
     padding-left: 5pt;
     text-indent: 0pt;
     text-align: left;
+    margin-left: 25pt;
 }
  .s5 { 
     color: black; 
@@ -241,6 +246,8 @@ p {
     padding-left: 5pt;
     text-indent: 0pt;
     text-align: left;
+    font-size: 11pt; 
+
 }
 .org
     {
